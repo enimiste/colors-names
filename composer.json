@@ -1,0 +1,16 @@
+{
+  "name": "enimiste/colors-names",
+  "description": "Colors names and hex mapping from W3School web site",
+  "keywords": [
+    "colors",
+    "hex"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "El bachir NOUNI",
+      "email": "nouni.elbachir@gmail.com"
+    }
+  ]
+}
