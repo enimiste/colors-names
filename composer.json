@@ -12,5 +12,10 @@
       "name": "El bachir NOUNI",
       "email": "nouni.elbachir@gmail.com"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+      "Com\\NickelIT\\Colors\\": "src"
+    }
+  }
 }
