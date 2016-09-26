@@ -14,7 +14,7 @@ class W3SchoolColors
 
     /**
      * Returns a list of colors names mapped with its hex code.
-     * Ex: "red"=>"#FF0000"
+     * Ex: ['name' => 'AliceBlue', 'hex' => '#F0F8FF'],
      *
      * @return array
      */

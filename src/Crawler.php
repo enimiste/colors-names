@@ -26,7 +26,7 @@ $content = file_get_contents($url);
 $colors = fetch_colors($content);
 
 $php .= array_reduce(array_keys($colors), function ($carry, $name) use ($colors) {
-    return $carry . "'$name' => '#{$colors[$name]}',\n";
+    return $carry . "['name'=>'$name',  'hex'=>'#{$colors[$name]}'],\n";
 });
 
 $php .= '];';
